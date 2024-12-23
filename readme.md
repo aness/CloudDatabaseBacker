@@ -105,9 +105,9 @@ This script automates the backup of a MySQL database using `mysqldump` and uploa
    ```bash
    crontab -e
    ```
-2. Add an entry to run the script at a specific time (e.g., 10:19 PM daily):
+2. Add an entry to run the script at a specific time (e.g., 0:1 AM daily):
    ```bash
-   19 22 * * * bash /backups/backer.sh
+   0 1 * * * bash /backups/backer.sh
    ```
 3. Save and exit.
 4. Verify the cron job:
